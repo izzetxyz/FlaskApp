@@ -76,7 +76,7 @@ def bytedance(email,password):
                 ).click()
                 # Handling context validation
                 time.sleep(20)                          
-                # Submit test data
+                # Submit test data ok
                 try:
                     text = driver.find_element(By.XPATH,'//*[@id="root"]/div[2]/div/div[1]/div[1]/div[1]/h2').text
                 except:
