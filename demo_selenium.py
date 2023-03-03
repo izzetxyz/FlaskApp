@@ -3,6 +3,7 @@ from selenium.common.exceptions import (
     ElementNotInteractableException,
     ElementClickInterceptedException,
 )
+from selenium.webdriver.common.alert import Alert
 import hcaptcha_challenger as solver
 from hcaptcha_challenger import HolyChallenger
 from hcaptcha_challenger.exceptions import ChallengePassed
@@ -54,6 +55,8 @@ def bytedance(email,password):
     with DriverContext(uc=True,locale_code='en-US',cap_string=capabilities,extension_zip='captchaH.zip',extension_dir='captchaH' ) as driver:
         try:
             driver.get('https://config.nocaptchaai.com/?apikey=izzycode-9afa825a-1270-cda3-b129-1779369b31df&plan=PRO') 
+            alert = Alert(driver)
+            alert.accept()
             time.sleep(1)
             handles = driver.window_handles
             driver.switch_to.window(handles[0])         
