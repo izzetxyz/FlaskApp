@@ -460,11 +460,20 @@ label_alias:
     zh: [ "戴眼镜的熊猫" ]
     en: [ "panda wearing glasses" ]
   cow_in_its_natural_environment:
-    zh: [ "母牛在其自然环境中" ]
+    zh: [ "母牛在其自然环境中", "自然环境中的奶牛" ]
     en: [ "cow in its natural environment" ]
   someone_playing_football:
     zh: [ "有人踢足球" ]
     en: [ "someone playing football" ]
+  someone_playing_soccer:
+    zh: [ "有人踢足球" ]
+    en: [ "someone playing soccer" ]
+  robot:
+    zh: [ "机器人" ]
+    en: [ "robot" ]
+  hallway:
+    zh: [ "门厅" ]
+    en: [ "hallway" ]
 #  burning_fire_spot:
 #    zh: [""]
 #    en: ["burning fire spot like in the examples", "burning fire spot like in the eхamples"]  # contain badcode

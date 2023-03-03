@@ -3195,3 +3195,745 @@ Backtrace:
 2023-02-28 03:30:47.533 | DEBUG    | hcaptcha_challenger._solutions.kernel:_request_asset:320 - Downloading objects.yaml from https://raw.githubusercontent.com/QIN2DIM/hcaptcha-challenger/main/src/objects.yaml
 2023-02-28 03:30:47.888 | DEBUG    | hcaptcha_challenger._solutions.kernel:request_assets:148 - Pulling AssetsObject from https://api.github.com/repos/QIN2DIM/hcaptcha-challenger/releases
 2023-03-01 01:31:37.837 | DEBUG    | hcaptcha_challenger._solutions.kernel:request_assets:148 - Pulling AssetsObject from https://api.github.com/repos/QIN2DIM/hcaptcha-challenger/releases
+2023-03-03 04:47:39.852 | DEBUG    | hcaptcha_challenger._solutions.kernel:request_assets:148 - Pulling AssetsObject from https://api.github.com/repos/QIN2DIM/hcaptcha-challenger/releases
+2023-03-03 04:56:16.879 | DEBUG    | hcaptcha_challenger.core:log:317 - >> Challenge [ArmorCaptcha] Get label - label=「someone playing soccer」
+2023-03-03 04:56:19.063 | DEBUG    | hcaptcha_challenger.core:log:317 - >> Challenge [ArmorCaptcha] Download challenge images - timeit=1.28s
+2023-03-03 04:56:19.333 | WARNING  | hcaptcha_challenger.core:tactical_retreat:385 - >> ALERT [ArmorCaptcha] Types of challenges not yet scheduled - label=「someone playing soccer」 prompt=「Please click each image containing someone playing ѕοссеr」 screenshot=datas\temp_cache\captcha_screenshot\1677808579.someone playing soccer.png site_link=https://www.papara.com/personal/auth/login/email-phone issues=https://github.com/QIN2DIM/hcaptcha-challenger/issues?q=someone%20playing%20soccer
+2023-03-03 04:56:20.399 | DEBUG    | hcaptcha_challenger.core:log:317 - >> Challenge [ArmorCaptcha] Get label - label=「someone playing soccer」
+2023-03-03 04:56:22.135 | DEBUG    | hcaptcha_challenger.core:log:317 - >> Challenge [ArmorCaptcha] Download challenge images - timeit=1.22s
+2023-03-03 04:56:22.387 | WARNING  | hcaptcha_challenger.core:tactical_retreat:385 - >> ALERT [ArmorCaptcha] Types of challenges not yet scheduled - label=「someone playing soccer」 prompt=「Please click each image containing someone playing ѕοссеr」 screenshot=datas\temp_cache\captcha_screenshot\1677808582.someone playing soccer.png site_link=https://www.papara.com/personal/auth/login/email-phone issues=https://github.com/QIN2DIM/hcaptcha-challenger/issues?q=someone%20playing%20soccer
+2023-03-03 04:56:23.425 | DEBUG    | hcaptcha_challenger.core:log:317 - >> Challenge [ArmorCaptcha] Get label - label=「someone playing soccer」
+2023-03-03 04:56:25.238 | DEBUG    | hcaptcha_challenger.core:log:317 - >> Challenge [ArmorCaptcha] Download challenge images - timeit=1.25s
+2023-03-03 04:56:25.488 | WARNING  | hcaptcha_challenger.core:tactical_retreat:385 - >> ALERT [ArmorCaptcha] Types of challenges not yet scheduled - label=「someone playing soccer」 prompt=「Please click each image containing someone playing ѕοссеr」 screenshot=datas\temp_cache\captcha_screenshot\1677808585.someone playing soccer.png site_link=https://www.papara.com/personal/auth/login/email-phone issues=https://github.com/QIN2DIM/hcaptcha-challenger/issues?q=someone%20playing%20soccer
+2023-03-03 04:56:26.610 | DEBUG    | hcaptcha_challenger.core:log:317 - >> Challenge [ArmorCaptcha] Get label - label=「someone playing soccer」
+2023-03-03 04:56:28.555 | DEBUG    | hcaptcha_challenger.core:log:317 - >> Challenge [ArmorCaptcha] Download challenge images - timeit=1.19s
+2023-03-03 04:56:28.740 | WARNING  | hcaptcha_challenger.core:tactical_retreat:385 - >> ALERT [ArmorCaptcha] Types of challenges not yet scheduled - label=「someone playing soccer」 prompt=「Please click each image containing someone playing ѕοссеr」 screenshot=datas\temp_cache\captcha_screenshot\1677808588.someone playing soccer.png site_link=https://www.papara.com/personal/auth/login/email-phone issues=https://github.com/QIN2DIM/hcaptcha-challenger/issues?q=someone%20playing%20soccer
+2023-03-03 04:56:29.782 | DEBUG    | hcaptcha_challenger.core:log:317 - >> Challenge [ArmorCaptcha] Get label - label=「someone playing soccer」
+2023-03-03 04:56:31.501 | DEBUG    | hcaptcha_challenger.core:log:317 - >> Challenge [ArmorCaptcha] Download challenge images - timeit=1.17s
+2023-03-03 04:56:31.503 | ERROR    | hcaptcha_challenger.core:tactical_retreat:382 - Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=110.0.5481.178)
+Stacktrace:
+Backtrace:
+	(No symbol) [0x010637D3]
+	(No symbol) [0x00FF8B81]
+	(No symbol) [0x00EFB36D]
+	(No symbol) [0x00EDE5DA]
+	(No symbol) [0x00F4F0CB]
+	(No symbol) [0x00F60A56]
+	(No symbol) [0x00F4B216]
+	(No symbol) [0x00F20D97]
+	(No symbol) [0x00F2253D]
+	GetHandleVerifier [0x012DABF2+2510930]
+	GetHandleVerifier [0x01308EC1+2700065]
+	GetHandleVerifier [0x0130C86C+2714828]
+	GetHandleVerifier [0x01113480+645344]
+	(No symbol) [0x01000FD2]
+	(No symbol) [0x01006C68]
+	(No symbol) [0x01006D4B]
+	(No symbol) [0x01010D6B]
+	BaseThreadInitThunk [0x75C000F9+25]
+	RtlGetAppContainerNamedObjectPath [0x77167BBE+286]
+	RtlGetAppContainerNamedObjectPath [0x77167B8E+238]
+
+Traceback (most recent call last):
+  File "C:\Users\izzet\AppData\Local\Programs\Python\Python310\lib\threading.py", line 966, in _bootstrap
+    self._bootstrap_inner()
+  File "C:\Users\izzet\AppData\Local\Programs\Python\Python310\lib\threading.py", line 1009, in _bootstrap_inner
+    self.run()
+  File "C:\Users\izzet\AppData\Local\Programs\Python\Python310\lib\threading.py", line 946, in run
+    self._target(*self._args, **self._kwargs)
+  File "C:\Users\izzet\AppData\Local\Programs\Python\Python310\lib\concurrent\futures\thread.py", line 83, in _worker
+    work_item.run()
+  File "C:\Users\izzet\AppData\Local\Programs\Python\Python310\lib\concurrent\futures\thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "C:\Users\izzet\OneDrive\Belgeler\MEGAsync Downloads\FlaskApp\app.py", line 12, in bytedance_async
+    result = bytedance(id, password)
+  File "C:\Users\izzet\OneDrive\Belgeler\MEGAsync Downloads\FlaskApp\demo_selenium.py", line 82, in bytedance
+    hit_challenge(ctx=driver,challenger=challenger)
+  File "C:\Users\izzet\OneDrive\Belgeler\MEGAsync Downloads\FlaskApp\demo_selenium.py", line 39, in hit_challenge
+    if (resp := challenger.anti_hcaptcha(ctx)) is None:
+  File "C:\Users\izzet\AppData\Local\Programs\Python\Python310\lib\site-packages\hcaptcha_challenger\core.py", line 678, in anti_hcaptcha
+    if drop := self.tactical_retreat(ctx) in [self.CHALLENGE_BACKCALL]:
+> File "C:\Users\izzet\AppData\Local\Programs\Python\Python310\lib\site-packages\hcaptcha_challenger\core.py", line 377, in tactical_retreat
+    challenge_container = ctx.find_element(By.XPATH, "//body[@class='no-selection']")
+  File "C:\Users\izzet\AppData\Local\Programs\Python\Python310\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 830, in find_element
+    return self.execute(Command.FIND_ELEMENT, {"using": by, "value": value})["value"]
+  File "C:\Users\izzet\AppData\Local\Programs\Python\Python310\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 440, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\izzet\AppData\Local\Programs\Python\Python310\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 245, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchWindowException: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=110.0.5481.178)
+Stacktrace:
+Backtrace:
+	(No symbol) [0x010637D3]
+	(No symbol) [0x00FF8B81]
+	(No symbol) [0x00EFB36D]
+	(No symbol) [0x00EDE5DA]
+	(No symbol) [0x00F4F0CB]
+	(No symbol) [0x00F60A56]
+	(No symbol) [0x00F4B216]
+	(No symbol) [0x00F20D97]
+	(No symbol) [0x00F2253D]
+	GetHandleVerifier [0x012DABF2+2510930]
+	GetHandleVerifier [0x01308EC1+2700065]
+	GetHandleVerifier [0x0130C86C+2714828]
+	GetHandleVerifier [0x01113480+645344]
+	(No symbol) [0x01000FD2]
+	(No symbol) [0x01006C68]
+	(No symbol) [0x01006D4B]
+	(No symbol) [0x01010D6B]
+	BaseThreadInitThunk [0x75C000F9+25]
+	RtlGetAppContainerNamedObjectPath [0x77167BBE+286]
+	RtlGetAppContainerNamedObjectPath [0x77167B8E+238]
+
+2023-03-03 04:56:31.574 | ERROR    | hcaptcha_challenger.core:anti_hcaptcha:699 - Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=110.0.5481.178)
+Stacktrace:
+Backtrace:
+	(No symbol) [0x010637D3]
+	(No symbol) [0x00FF8B81]
+	(No symbol) [0x00EFB36D]
+	(No symbol) [0x00EDE5DA]
+	(No symbol) [0x00F4F0CB]
+	(No symbol) [0x00F60A56]
+	(No symbol) [0x00F4B216]
+	(No symbol) [0x00F20D97]
+	(No symbol) [0x00F2253D]
+	GetHandleVerifier [0x012DABF2+2510930]
+	GetHandleVerifier [0x01308EC1+2700065]
+	GetHandleVerifier [0x0130C86C+2714828]
+	GetHandleVerifier [0x01113480+645344]
+	(No symbol) [0x01000FD2]
+	(No symbol) [0x01006C68]
+	(No symbol) [0x01006D4B]
+	(No symbol) [0x01010D6B]
+	BaseThreadInitThunk [0x75C000F9+25]
+	RtlGetAppContainerNamedObjectPath [0x77167BBE+286]
+	RtlGetAppContainerNamedObjectPath [0x77167B8E+238]
+
+Traceback (most recent call last):
+  File "C:\Users\izzet\AppData\Local\Programs\Python\Python310\lib\threading.py", line 966, in _bootstrap
+    self._bootstrap_inner()
+  File "C:\Users\izzet\AppData\Local\Programs\Python\Python310\lib\threading.py", line 1009, in _bootstrap_inner
+    self.run()
+  File "C:\Users\izzet\AppData\Local\Programs\Python\Python310\lib\threading.py", line 946, in run
+    self._target(*self._args, **self._kwargs)
+  File "C:\Users\izzet\AppData\Local\Programs\Python\Python310\lib\concurrent\futures\thread.py", line 83, in _worker
+    work_item.run()
+  File "C:\Users\izzet\AppData\Local\Programs\Python\Python310\lib\concurrent\futures\thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "C:\Users\izzet\OneDrive\Belgeler\MEGAsync Downloads\FlaskApp\app.py", line 12, in bytedance_async
+    result = bytedance(id, password)
+  File "C:\Users\izzet\OneDrive\Belgeler\MEGAsync Downloads\FlaskApp\demo_selenium.py", line 82, in bytedance
+    hit_challenge(ctx=driver,challenger=challenger)
+  File "C:\Users\izzet\OneDrive\Belgeler\MEGAsync Downloads\FlaskApp\demo_selenium.py", line 39, in hit_challenge
+    if (resp := challenger.anti_hcaptcha(ctx)) is None:
+> File "C:\Users\izzet\AppData\Local\Programs\Python\Python310\lib\site-packages\hcaptcha_challenger\core.py", line 678, in anti_hcaptcha
+    if drop := self.tactical_retreat(ctx) in [self.CHALLENGE_BACKCALL]:
+  File "C:\Users\izzet\AppData\Local\Programs\Python\Python310\lib\site-packages\hcaptcha_challenger\core.py", line 390, in tactical_retreat
+    f"site_link={ctx.current_url} "
+  File "C:\Users\izzet\AppData\Local\Programs\Python\Python310\lib\site-packages\seleniumbase\undetected\__init__.py", line 314, in __getattribute__
+    return super().__getattribute__(item)
+  File "C:\Users\izzet\AppData\Local\Programs\Python\Python310\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 530, in current_url
+    return self.execute(Command.GET_CURRENT_URL)["value"]
+  File "C:\Users\izzet\AppData\Local\Programs\Python\Python310\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 440, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\izzet\AppData\Local\Programs\Python\Python310\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 245, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchWindowException: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=110.0.5481.178)
+Stacktrace:
+Backtrace:
+	(No symbol) [0x010637D3]
+	(No symbol) [0x00FF8B81]
+	(No symbol) [0x00EFB36D]
+	(No symbol) [0x00EDE5DA]
+	(No symbol) [0x00F4F0CB]
+	(No symbol) [0x00F60A56]
+	(No symbol) [0x00F4B216]
+	(No symbol) [0x00F20D97]
+	(No symbol) [0x00F2253D]
+	GetHandleVerifier [0x012DABF2+2510930]
+	GetHandleVerifier [0x01308EC1+2700065]
+	GetHandleVerifier [0x0130C86C+2714828]
+	GetHandleVerifier [0x01113480+645344]
+	(No symbol) [0x01000FD2]
+	(No symbol) [0x01006C68]
+	(No symbol) [0x01006D4B]
+	(No symbol) [0x01010D6B]
+	BaseThreadInitThunk [0x75C000F9+25]
+	RtlGetAppContainerNamedObjectPath [0x77167BBE+286]
+	RtlGetAppContainerNamedObjectPath [0x77167B8E+238]
+
+2023-03-03 05:03:08.950 | DEBUG    | hcaptcha_challenger.core:log:317 - >> Challenge [ArmorCaptcha] Get label - label=「someone playing soccer」
+2023-03-03 05:03:10.723 | DEBUG    | hcaptcha_challenger.core:log:317 - >> Challenge [ArmorCaptcha] Download challenge images - timeit=1.22s
+2023-03-03 05:03:11.041 | WARNING  | hcaptcha_challenger.core:tactical_retreat:385 - >> ALERT [ArmorCaptcha] Types of challenges not yet scheduled - label=「someone playing soccer」 prompt=「Please click each image containing someone playing sοссеr」 screenshot=datas\temp_cache\captcha_screenshot\1677808990.someone playing soccer.png site_link=https://www.papara.com/personal/auth/login/email-phone issues=https://github.com/QIN2DIM/hcaptcha-challenger/issues?q=someone%20playing%20soccer
+2023-03-03 05:03:12.106 | DEBUG    | hcaptcha_challenger.core:log:317 - >> Challenge [ArmorCaptcha] Get label - label=「someone playing soccer」
+2023-03-03 05:03:13.817 | DEBUG    | hcaptcha_challenger.core:log:317 - >> Challenge [ArmorCaptcha] Download challenge images - timeit=1.21s
+2023-03-03 05:03:14.031 | WARNING  | hcaptcha_challenger.core:tactical_retreat:385 - >> ALERT [ArmorCaptcha] Types of challenges not yet scheduled - label=「someone playing soccer」 prompt=「Please click each image containing someone playing sοссеr」 screenshot=datas\temp_cache\captcha_screenshot\1677808993.someone playing soccer.png site_link=https://www.papara.com/personal/auth/login/email-phone issues=https://github.com/QIN2DIM/hcaptcha-challenger/issues?q=someone%20playing%20soccer
+2023-03-03 05:03:15.079 | DEBUG    | hcaptcha_challenger.core:log:317 - >> Challenge [ArmorCaptcha] Get label - label=「someone playing soccer」
+2023-03-03 05:03:16.896 | DEBUG    | hcaptcha_challenger.core:log:317 - >> Challenge [ArmorCaptcha] Download challenge images - timeit=1.32s
+2023-03-03 05:03:17.076 | WARNING  | hcaptcha_challenger.core:tactical_retreat:385 - >> ALERT [ArmorCaptcha] Types of challenges not yet scheduled - label=「someone playing soccer」 prompt=「Please click each image containing someone playing sοссеr」 screenshot=datas\temp_cache\captcha_screenshot\1677808996.someone playing soccer.png site_link=https://www.papara.com/personal/auth/login/email-phone issues=https://github.com/QIN2DIM/hcaptcha-challenger/issues?q=someone%20playing%20soccer
+2023-03-03 05:10:52.067 | DEBUG    | hcaptcha_challenger.core:log:317 - >> Challenge [ArmorCaptcha] Get label - label=「forest」
+2023-03-03 05:10:53.801 | DEBUG    | hcaptcha_challenger.core:log:317 - >> Challenge [ArmorCaptcha] Download challenge images - timeit=1.19s
+2023-03-03 05:10:54.087 | DEBUG    | hcaptcha_challenger._solutions.kernel:_request_asset:320 - Downloading forest.onnx from https://github.com/QIN2DIM/hcaptcha-challenger/releases/download/model/forest.onnx
+2023-03-03 05:10:59.126 | DEBUG    | hcaptcha_challenger.core:log:317 - >> Challenge [ArmorCaptcha] Submit the challenge - forest(ResNet)_model: 2.52s
+2023-03-03 05:11:02.357 | DEBUG    | hcaptcha_challenger.core:log:317 - >> Challenge [ArmorCaptcha] Get response - desc=success
+2023-03-03 05:16:41.413 | DEBUG    | hcaptcha_challenger.core:log:317 - >> Challenge [ArmorCaptcha] Get label - label=「someone playing soccer」
+2023-03-03 05:16:43.200 | DEBUG    | hcaptcha_challenger.core:log:317 - >> Challenge [ArmorCaptcha] Download challenge images - timeit=1.22s
+2023-03-03 05:16:43.496 | WARNING  | hcaptcha_challenger.core:tactical_retreat:385 - >> ALERT [ArmorCaptcha] Types of challenges not yet scheduled - label=「someone playing soccer」 prompt=「Please click each image containing someone playing sοсcer」 screenshot=datas\temp_cache\captcha_screenshot\1677809803.someone playing soccer.png site_link=https://www.papara.com/personal/auth/login/email-phone issues=https://github.com/QIN2DIM/hcaptcha-challenger/issues?q=someone%20playing%20soccer
+2023-03-03 05:16:44.580 | DEBUG    | hcaptcha_challenger.core:log:317 - >> Challenge [ArmorCaptcha] Get label - label=「someone playing soccer」
+2023-03-03 05:16:46.280 | DEBUG    | hcaptcha_challenger.core:log:317 - >> Challenge [ArmorCaptcha] Download challenge images - timeit=1.2s
+2023-03-03 05:16:46.446 | WARNING  | hcaptcha_challenger.core:tactical_retreat:385 - >> ALERT [ArmorCaptcha] Types of challenges not yet scheduled - label=「someone playing soccer」 prompt=「Please click each image containing someone playing sοсcer」 screenshot=datas\temp_cache\captcha_screenshot\1677809806.someone playing soccer.png site_link=https://www.papara.com/personal/auth/login/email-phone issues=https://github.com/QIN2DIM/hcaptcha-challenger/issues?q=someone%20playing%20soccer
+2023-03-03 05:16:47.503 | DEBUG    | hcaptcha_challenger.core:log:317 - >> Challenge [ArmorCaptcha] Get label - label=「someone playing soccer」
+2023-03-03 05:16:49.279 | DEBUG    | hcaptcha_challenger.core:log:317 - >> Challenge [ArmorCaptcha] Download challenge images - timeit=1.19s
+2023-03-03 05:16:49.527 | WARNING  | hcaptcha_challenger.core:tactical_retreat:385 - >> ALERT [ArmorCaptcha] Types of challenges not yet scheduled - label=「someone playing soccer」 prompt=「Please click each image containing someone playing sοсcer」 screenshot=datas\temp_cache\captcha_screenshot\1677809809.someone playing soccer.png site_link=https://www.papara.com/personal/auth/login/email-phone issues=https://github.com/QIN2DIM/hcaptcha-challenger/issues?q=someone%20playing%20soccer
+2023-03-03 05:16:50.588 | DEBUG    | hcaptcha_challenger.core:log:317 - >> Challenge [ArmorCaptcha] Get label - label=「someone playing soccer」
+2023-03-03 05:16:52.418 | DEBUG    | hcaptcha_challenger.core:log:317 - >> Challenge [ArmorCaptcha] Download challenge images - timeit=1.2s
+2023-03-03 05:16:52.623 | WARNING  | hcaptcha_challenger.core:tactical_retreat:385 - >> ALERT [ArmorCaptcha] Types of challenges not yet scheduled - label=「someone playing soccer」 prompt=「Please click each image containing someone playing sοсcer」 screenshot=datas\temp_cache\captcha_screenshot\1677809812.someone playing soccer.png site_link=https://www.papara.com/personal/auth/login/email-phone issues=https://github.com/QIN2DIM/hcaptcha-challenger/issues?q=someone%20playing%20soccer
+2023-03-03 05:16:53.748 | DEBUG    | hcaptcha_challenger.core:log:317 - >> Challenge [ArmorCaptcha] Get label - label=「hockey match」
+2023-03-03 05:16:54.120 | ERROR    | hcaptcha_challenger.core:anti_hcaptcha:699 - Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=110.0.5481.178)
+Stacktrace:
+Backtrace:
+	(No symbol) [0x010637D3]
+	(No symbol) [0x00FF8B81]
+	(No symbol) [0x00EFB36D]
+	(No symbol) [0x00EDE5DA]
+	(No symbol) [0x00F4F0CB]
+	(No symbol) [0x00F60A56]
+	(No symbol) [0x00F4B216]
+	(No symbol) [0x00F20D97]
+	(No symbol) [0x00F2253D]
+	GetHandleVerifier [0x012DABF2+2510930]
+	GetHandleVerifier [0x01308EC1+2700065]
+	GetHandleVerifier [0x0130C86C+2714828]
+	GetHandleVerifier [0x01113480+645344]
+	(No symbol) [0x01000FD2]
+	(No symbol) [0x01006C68]
+	(No symbol) [0x01006D4B]
+	(No symbol) [0x01010D6B]
+	BaseThreadInitThunk [0x75C000F9+25]
+	RtlGetAppContainerNamedObjectPath [0x77167BBE+286]
+	RtlGetAppContainerNamedObjectPath [0x77167B8E+238]
+
+Traceback (most recent call last):
+  File "C:\Users\izzet\AppData\Local\Programs\Python\Python310\lib\threading.py", line 966, in _bootstrap
+    self._bootstrap_inner()
+  File "C:\Users\izzet\AppData\Local\Programs\Python\Python310\lib\threading.py", line 1009, in _bootstrap_inner
+    self.run()
+  File "C:\Users\izzet\AppData\Local\Programs\Python\Python310\lib\threading.py", line 946, in run
+    self._target(*self._args, **self._kwargs)
+  File "C:\Users\izzet\AppData\Local\Programs\Python\Python310\lib\concurrent\futures\thread.py", line 83, in _worker
+    work_item.run()
+  File "C:\Users\izzet\AppData\Local\Programs\Python\Python310\lib\concurrent\futures\thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "C:\Users\izzet\OneDrive\Belgeler\MEGAsync Downloads\FlaskApp\app.py", line 12, in bytedance_async
+    result = bytedance(id, password)
+  File "C:\Users\izzet\OneDrive\Belgeler\MEGAsync Downloads\FlaskApp\demo_selenium.py", line 83, in bytedance
+    hit_challenge(ctx=driver,challenger=challenger)
+  File "C:\Users\izzet\OneDrive\Belgeler\MEGAsync Downloads\FlaskApp\demo_selenium.py", line 39, in hit_challenge
+    if (resp := challenger.anti_hcaptcha(ctx)) is None:
+> File "C:\Users\izzet\AppData\Local\Programs\Python\Python310\lib\site-packages\hcaptcha_challenger\core.py", line 667, in anti_hcaptcha
+    if drop := self.mark_samples(ctx) in [
+  File "C:\Users\izzet\AppData\Local\Programs\Python\Python310\lib\site-packages\hcaptcha_challenger\core.py", line 434, in mark_samples
+    alias = sample.get_attribute("aria-label")
+  File "C:\Users\izzet\AppData\Local\Programs\Python\Python310\lib\site-packages\selenium\webdriver\remote\webelement.py", line 177, in get_attribute
+    attribute_value = self.parent.execute_script(
+  File "C:\Users\izzet\AppData\Local\Programs\Python\Python310\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 500, in execute_script
+    return self.execute(command, {"script": script, "args": converted_args})["value"]
+  File "C:\Users\izzet\AppData\Local\Programs\Python\Python310\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 440, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\izzet\AppData\Local\Programs\Python\Python310\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 245, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchWindowException: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=110.0.5481.178)
+Stacktrace:
+Backtrace:
+	(No symbol) [0x010637D3]
+	(No symbol) [0x00FF8B81]
+	(No symbol) [0x00EFB36D]
+	(No symbol) [0x00EDE5DA]
+	(No symbol) [0x00F4F0CB]
+	(No symbol) [0x00F60A56]
+	(No symbol) [0x00F4B216]
+	(No symbol) [0x00F20D97]
+	(No symbol) [0x00F2253D]
+	GetHandleVerifier [0x012DABF2+2510930]
+	GetHandleVerifier [0x01308EC1+2700065]
+	GetHandleVerifier [0x0130C86C+2714828]
+	GetHandleVerifier [0x01113480+645344]
+	(No symbol) [0x01000FD2]
+	(No symbol) [0x01006C68]
+	(No symbol) [0x01006D4B]
+	(No symbol) [0x01010D6B]
+	BaseThreadInitThunk [0x75C000F9+25]
+	RtlGetAppContainerNamedObjectPath [0x77167BBE+286]
+	RtlGetAppContainerNamedObjectPath [0x77167B8E+238]
+
+2023-03-03 05:21:44.202 | DEBUG    | hcaptcha_challenger.core:log:317 - >> Challenge [ArmorCaptcha] Get label - label=「someone playing soccer」
+2023-03-03 05:21:45.955 | DEBUG    | hcaptcha_challenger.core:log:317 - >> Challenge [ArmorCaptcha] Download challenge images - timeit=1.22s
+2023-03-03 05:21:46.274 | WARNING  | hcaptcha_challenger.core:tactical_retreat:385 - >> ALERT [ArmorCaptcha] Types of challenges not yet scheduled - label=「someone playing soccer」 prompt=「Please click each image containing someone playing ѕοссer」 screenshot=datas\temp_cache\captcha_screenshot\1677810105.someone playing soccer.png site_link=https://www.papara.com/personal/auth/login/email-phone issues=https://github.com/QIN2DIM/hcaptcha-challenger/issues?q=someone%20playing%20soccer
+2023-03-03 05:21:47.322 | DEBUG    | hcaptcha_challenger.core:log:317 - >> Challenge [ArmorCaptcha] Get label - label=「someone playing soccer」
+2023-03-03 05:21:49.018 | DEBUG    | hcaptcha_challenger.core:log:317 - >> Challenge [ArmorCaptcha] Download challenge images - timeit=1.2s
+2023-03-03 05:21:49.226 | WARNING  | hcaptcha_challenger.core:tactical_retreat:385 - >> ALERT [ArmorCaptcha] Types of challenges not yet scheduled - label=「someone playing soccer」 prompt=「Please click each image containing someone playing ѕοссer」 screenshot=datas\temp_cache\captcha_screenshot\1677810109.someone playing soccer.png site_link=https://www.papara.com/personal/auth/login/email-phone issues=https://github.com/QIN2DIM/hcaptcha-challenger/issues?q=someone%20playing%20soccer
+2023-03-03 05:21:50.302 | DEBUG    | hcaptcha_challenger.core:log:317 - >> Challenge [ArmorCaptcha] Get label - label=「someone playing soccer」
+2023-03-03 05:21:52.010 | DEBUG    | hcaptcha_challenger.core:log:317 - >> Challenge [ArmorCaptcha] Download challenge images - timeit=1.19s
+2023-03-03 05:21:52.192 | WARNING  | hcaptcha_challenger.core:tactical_retreat:385 - >> ALERT [ArmorCaptcha] Types of challenges not yet scheduled - label=「someone playing soccer」 prompt=「Please click each image containing someone playing ѕοссer」 screenshot=datas\temp_cache\captcha_screenshot\1677810112.someone playing soccer.png site_link=https://www.papara.com/personal/auth/login/email-phone issues=https://github.com/QIN2DIM/hcaptcha-challenger/issues?q=someone%20playing%20soccer
+2023-03-03 05:21:53.236 | DEBUG    | hcaptcha_challenger.core:log:317 - >> Challenge [ArmorCaptcha] Get label - label=「someone playing soccer」
+2023-03-03 05:21:54.929 | DEBUG    | hcaptcha_challenger.core:log:317 - >> Challenge [ArmorCaptcha] Download challenge images - timeit=1.21s
+2023-03-03 05:21:55.156 | WARNING  | hcaptcha_challenger.core:tactical_retreat:385 - >> ALERT [ArmorCaptcha] Types of challenges not yet scheduled - label=「someone playing soccer」 prompt=「Please click each image containing someone playing ѕοссer」 screenshot=datas\temp_cache\captcha_screenshot\1677810114.someone playing soccer.png site_link=https://www.papara.com/personal/auth/login/email-phone issues=https://github.com/QIN2DIM/hcaptcha-challenger/issues?q=someone%20playing%20soccer
+2023-03-03 05:21:56.196 | DEBUG    | hcaptcha_challenger.core:log:317 - >> Challenge [ArmorCaptcha] Get label - label=「someone playing soccer」
+2023-03-03 05:21:57.910 | DEBUG    | hcaptcha_challenger.core:log:317 - >> Challenge [ArmorCaptcha] Download challenge images - timeit=1.2s
+2023-03-03 05:21:58.078 | WARNING  | hcaptcha_challenger.core:tactical_retreat:385 - >> ALERT [ArmorCaptcha] Types of challenges not yet scheduled - label=「someone playing soccer」 prompt=「Please click each image containing someone playing ѕοссer」 screenshot=datas\temp_cache\captcha_screenshot\1677810117.someone playing soccer.png site_link=https://www.papara.com/personal/auth/login/email-phone issues=https://github.com/QIN2DIM/hcaptcha-challenger/issues?q=someone%20playing%20soccer
+2023-03-03 05:21:59.116 | DEBUG    | hcaptcha_challenger.core:log:317 - >> Challenge [ArmorCaptcha] Get label - label=「someone playing soccer」
+2023-03-03 05:22:00.896 | DEBUG    | hcaptcha_challenger.core:log:317 - >> Challenge [ArmorCaptcha] Download challenge images - timeit=1.19s
+2023-03-03 05:22:01.256 | WARNING  | hcaptcha_challenger.core:tactical_retreat:385 - >> ALERT [ArmorCaptcha] Types of challenges not yet scheduled - label=「someone playing soccer」 prompt=「Please click each image containing someone playing ѕοссer」 screenshot=datas\temp_cache\captcha_screenshot\1677810120.someone playing soccer.png site_link=https://www.papara.com/personal/auth/login/email-phone issues=https://github.com/QIN2DIM/hcaptcha-challenger/issues?q=someone%20playing%20soccer
+2023-03-03 05:22:02.382 | DEBUG    | hcaptcha_challenger.core:log:317 - >> Challenge [ArmorCaptcha] Get label - label=「someone playing soccer」
+2023-03-03 05:22:04.303 | DEBUG    | hcaptcha_challenger.core:log:317 - >> Challenge [ArmorCaptcha] Download challenge images - timeit=1.19s
+2023-03-03 05:22:04.567 | WARNING  | hcaptcha_challenger.core:tactical_retreat:385 - >> ALERT [ArmorCaptcha] Types of challenges not yet scheduled - label=「someone playing soccer」 prompt=「Please click each image containing someone playing ѕοссer」 screenshot=datas\temp_cache\captcha_screenshot\1677810124.someone playing soccer.png site_link=https://www.papara.com/personal/auth/login/email-phone issues=https://github.com/QIN2DIM/hcaptcha-challenger/issues?q=someone%20playing%20soccer
+2023-03-03 05:22:05.684 | DEBUG    | hcaptcha_challenger.core:log:317 - >> Challenge [ArmorCaptcha] Get label - label=「someone playing soccer」
+2023-03-03 05:22:07.486 | DEBUG    | hcaptcha_challenger.core:log:317 - >> Challenge [ArmorCaptcha] Download challenge images - timeit=1.2s
+2023-03-03 05:22:07.705 | WARNING  | hcaptcha_challenger.core:tactical_retreat:385 - >> ALERT [ArmorCaptcha] Types of challenges not yet scheduled - label=「someone playing soccer」 prompt=「Please click each image containing someone playing ѕοссer」 screenshot=datas\temp_cache\captcha_screenshot\1677810127.someone playing soccer.png site_link=https://www.papara.com/personal/auth/login/email-phone issues=https://github.com/QIN2DIM/hcaptcha-challenger/issues?q=someone%20playing%20soccer
+2023-03-03 05:22:08.796 | DEBUG    | hcaptcha_challenger.core:log:317 - >> Challenge [ArmorCaptcha] Get label - label=「someone playing soccer」
+2023-03-03 05:22:10.565 | DEBUG    | hcaptcha_challenger.core:log:317 - >> Challenge [ArmorCaptcha] Download challenge images - timeit=1.23s
+2023-03-03 05:22:10.819 | WARNING  | hcaptcha_challenger.core:tactical_retreat:385 - >> ALERT [ArmorCaptcha] Types of challenges not yet scheduled - label=「someone playing soccer」 prompt=「Please click each image containing someone playing ѕοссer」 screenshot=datas\temp_cache\captcha_screenshot\1677810130.someone playing soccer.png site_link=https://www.papara.com/personal/auth/login/email-phone issues=https://github.com/QIN2DIM/hcaptcha-challenger/issues?q=someone%20playing%20soccer
+2023-03-03 05:22:11.902 | DEBUG    | hcaptcha_challenger.core:log:317 - >> Challenge [ArmorCaptcha] Get label - label=「someone playing soccer」
+2023-03-03 05:22:13.739 | DEBUG    | hcaptcha_challenger.core:log:317 - >> Challenge [ArmorCaptcha] Download challenge images - timeit=1.34s
+2023-03-03 05:22:13.979 | WARNING  | hcaptcha_challenger.core:tactical_retreat:385 - >> ALERT [ArmorCaptcha] Types of challenges not yet scheduled - label=「someone playing soccer」 prompt=「Please click each image containing someone playing ѕοссer」 screenshot=datas\temp_cache\captcha_screenshot\1677810133.someone playing soccer.png site_link=https://www.papara.com/personal/auth/login/email-phone issues=https://github.com/QIN2DIM/hcaptcha-challenger/issues?q=someone%20playing%20soccer
+2023-03-03 05:26:54.477 | ERROR    | hcaptcha_challenger.core:anti_hcaptcha:699 - Message: 
+Stacktrace:
+Backtrace:
+	(No symbol) [0x010637D3]
+	(No symbol) [0x00FF8B81]
+	(No symbol) [0x00EFB36D]
+	(No symbol) [0x00F2D382]
+	(No symbol) [0x00F2D4BB]
+	(No symbol) [0x00F63302]
+	(No symbol) [0x00F4B464]
+	(No symbol) [0x00F61215]
+	(No symbol) [0x00F4B216]
+	(No symbol) [0x00F20D97]
+	(No symbol) [0x00F2253D]
+	GetHandleVerifier [0x012DABF2+2510930]
+	GetHandleVerifier [0x01308EC1+2700065]
+	GetHandleVerifier [0x0130C86C+2714828]
+	GetHandleVerifier [0x01113480+645344]
+	(No symbol) [0x01000FD2]
+	(No symbol) [0x01006C68]
+	(No symbol) [0x01006D4B]
+	(No symbol) [0x01010D6B]
+	BaseThreadInitThunk [0x75C000F9+25]
+	RtlGetAppContainerNamedObjectPath [0x77167BBE+286]
+	RtlGetAppContainerNamedObjectPath [0x77167B8E+238]
+
+Traceback (most recent call last):
+  File "C:\Users\izzet\AppData\Local\Programs\Python\Python310\lib\threading.py", line 966, in _bootstrap
+    self._bootstrap_inner()
+  File "C:\Users\izzet\AppData\Local\Programs\Python\Python310\lib\threading.py", line 1009, in _bootstrap_inner
+    self.run()
+  File "C:\Users\izzet\AppData\Local\Programs\Python\Python310\lib\threading.py", line 946, in run
+    self._target(*self._args, **self._kwargs)
+  File "C:\Users\izzet\AppData\Local\Programs\Python\Python310\lib\concurrent\futures\thread.py", line 83, in _worker
+    work_item.run()
+  File "C:\Users\izzet\AppData\Local\Programs\Python\Python310\lib\concurrent\futures\thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "C:\Users\izzet\OneDrive\Belgeler\MEGAsync Downloads\FlaskApp\app.py", line 12, in bytedance_async
+    result = bytedance(id, password)
+  File "C:\Users\izzet\OneDrive\Belgeler\MEGAsync Downloads\FlaskApp\demo_selenium.py", line 87, in bytedance
+    hit_challenge(ctx=driver,challenger=challenger)
+  File "C:\Users\izzet\OneDrive\Belgeler\MEGAsync Downloads\FlaskApp\demo_selenium.py", line 39, in hit_challenge
+    if (resp := challenger.anti_hcaptcha(ctx)) is None:
+> File "C:\Users\izzet\AppData\Local\Programs\Python\Python310\lib\site-packages\hcaptcha_challenger\core.py", line 659, in anti_hcaptcha
+    self.switch_to_challenge_frame(ctx)
+  File "C:\Users\izzet\AppData\Local\Programs\Python\Python310\lib\site-packages\hcaptcha_challenger\core.py", line 320, in switch_to_challenge_frame
+    WebDriverWait(ctx, 15, ignored_exceptions=(ElementNotVisibleException,)).until(
+  File "C:\Users\izzet\AppData\Local\Programs\Python\Python310\lib\site-packages\selenium\webdriver\support\wait.py", line 95, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+Backtrace:
+	(No symbol) [0x010637D3]
+	(No symbol) [0x00FF8B81]
+	(No symbol) [0x00EFB36D]
+	(No symbol) [0x00F2D382]
+	(No symbol) [0x00F2D4BB]
+	(No symbol) [0x00F63302]
+	(No symbol) [0x00F4B464]
+	(No symbol) [0x00F61215]
+	(No symbol) [0x00F4B216]
+	(No symbol) [0x00F20D97]
+	(No symbol) [0x00F2253D]
+	GetHandleVerifier [0x012DABF2+2510930]
+	GetHandleVerifier [0x01308EC1+2700065]
+	GetHandleVerifier [0x0130C86C+2714828]
+	GetHandleVerifier [0x01113480+645344]
+	(No symbol) [0x01000FD2]
+	(No symbol) [0x01006C68]
+	(No symbol) [0x01006D4B]
+	(No symbol) [0x01010D6B]
+	BaseThreadInitThunk [0x75C000F9+25]
+	RtlGetAppContainerNamedObjectPath [0x77167BBE+286]
+	RtlGetAppContainerNamedObjectPath [0x77167B8E+238]
+
+2023-03-03 05:26:55.608 | DEBUG    | hcaptcha_challenger.core:log:317 - >> Challenge [ArmorCaptcha] Get label - label=「someone playing soccer」
+2023-03-03 05:26:57.352 | DEBUG    | hcaptcha_challenger.core:log:317 - >> Challenge [ArmorCaptcha] Download challenge images - timeit=1.21s
+2023-03-03 05:26:57.702 | WARNING  | hcaptcha_challenger.core:tactical_retreat:385 - >> ALERT [ArmorCaptcha] Types of challenges not yet scheduled - label=「someone playing soccer」 prompt=「Please click each image containing someone playing soсcer」 screenshot=datas\temp_cache\captcha_screenshot\1677810417.someone playing soccer.png site_link=https://www.papara.com/personal/auth/login/email-phone issues=https://github.com/QIN2DIM/hcaptcha-challenger/issues?q=someone%20playing%20soccer
+2023-03-03 05:26:58.747 | DEBUG    | hcaptcha_challenger.core:log:317 - >> Challenge [ArmorCaptcha] Get label - label=「someone playing soccer」
+2023-03-03 05:27:00.639 | DEBUG    | hcaptcha_challenger.core:log:317 - >> Challenge [ArmorCaptcha] Download challenge images - timeit=1.38s
+2023-03-03 05:27:00.847 | WARNING  | hcaptcha_challenger.core:tactical_retreat:385 - >> ALERT [ArmorCaptcha] Types of challenges not yet scheduled - label=「someone playing soccer」 prompt=「Please click each image containing someone playing soсcer」 screenshot=datas\temp_cache\captcha_screenshot\1677810420.someone playing soccer.png site_link=https://www.papara.com/personal/auth/login/email-phone issues=https://github.com/QIN2DIM/hcaptcha-challenger/issues?q=someone%20playing%20soccer
+2023-03-03 05:27:01.960 | DEBUG    | hcaptcha_challenger.core:log:317 - >> Challenge [ArmorCaptcha] Get label - label=「someone playing soccer」
+2023-03-03 05:27:03.804 | DEBUG    | hcaptcha_challenger.core:log:317 - >> Challenge [ArmorCaptcha] Download challenge images - timeit=1.2s
+2023-03-03 05:27:04.044 | WARNING  | hcaptcha_challenger.core:tactical_retreat:385 - >> ALERT [ArmorCaptcha] Types of challenges not yet scheduled - label=「someone playing soccer」 prompt=「Please click each image containing someone playing soсcer」 screenshot=datas\temp_cache\captcha_screenshot\1677810423.someone playing soccer.png site_link=https://www.papara.com/personal/auth/login/email-phone issues=https://github.com/QIN2DIM/hcaptcha-challenger/issues?q=someone%20playing%20soccer
+2023-03-03 05:27:05.143 | DEBUG    | hcaptcha_challenger.core:log:317 - >> Challenge [ArmorCaptcha] Get label - label=「someone playing soccer」
+2023-03-03 05:27:06.894 | DEBUG    | hcaptcha_challenger.core:log:317 - >> Challenge [ArmorCaptcha] Download challenge images - timeit=1.18s
+2023-03-03 05:27:07.077 | WARNING  | hcaptcha_challenger.core:tactical_retreat:385 - >> ALERT [ArmorCaptcha] Types of challenges not yet scheduled - label=「someone playing soccer」 prompt=「Please click each image containing someone playing soсcer」 screenshot=datas\temp_cache\captcha_screenshot\1677810426.someone playing soccer.png site_link=https://www.papara.com/personal/auth/login/email-phone issues=https://github.com/QIN2DIM/hcaptcha-challenger/issues?q=someone%20playing%20soccer
+2023-03-03 05:27:08.147 | DEBUG    | hcaptcha_challenger.core:log:317 - >> Challenge [ArmorCaptcha] Get label - label=「someone playing soccer」
+2023-03-03 05:27:10.006 | DEBUG    | hcaptcha_challenger.core:log:317 - >> Challenge [ArmorCaptcha] Download challenge images - timeit=1.34s
+2023-03-03 05:27:10.202 | WARNING  | hcaptcha_challenger.core:tactical_retreat:385 - >> ALERT [ArmorCaptcha] Types of challenges not yet scheduled - label=「someone playing soccer」 prompt=「Please click each image containing someone playing soсcer」 screenshot=datas\temp_cache\captcha_screenshot\1677810430.someone playing soccer.png site_link=https://www.papara.com/personal/auth/login/email-phone issues=https://github.com/QIN2DIM/hcaptcha-challenger/issues?q=someone%20playing%20soccer
+2023-03-03 05:27:11.293 | DEBUG    | hcaptcha_challenger.core:log:317 - >> Challenge [ArmorCaptcha] Get label - label=「someone playing soccer」
+2023-03-03 05:27:13.010 | DEBUG    | hcaptcha_challenger.core:log:317 - >> Challenge [ArmorCaptcha] Download challenge images - timeit=1.2s
+2023-03-03 05:27:13.209 | WARNING  | hcaptcha_challenger.core:tactical_retreat:385 - >> ALERT [ArmorCaptcha] Types of challenges not yet scheduled - label=「someone playing soccer」 prompt=「Please click each image containing someone playing soсcer」 screenshot=datas\temp_cache\captcha_screenshot\1677810433.someone playing soccer.png site_link=https://www.papara.com/personal/auth/login/email-phone issues=https://github.com/QIN2DIM/hcaptcha-challenger/issues?q=someone%20playing%20soccer
+2023-03-03 05:27:14.333 | DEBUG    | hcaptcha_challenger.core:log:317 - >> Challenge [ArmorCaptcha] Get label - label=「someone playing soccer」
+2023-03-03 05:27:16.033 | DEBUG    | hcaptcha_challenger.core:log:317 - >> Challenge [ArmorCaptcha] Download challenge images - timeit=1.19s
+2023-03-03 05:27:16.284 | WARNING  | hcaptcha_challenger.core:tactical_retreat:385 - >> ALERT [ArmorCaptcha] Types of challenges not yet scheduled - label=「someone playing soccer」 prompt=「Please click each image containing someone playing soсcer」 screenshot=datas\temp_cache\captcha_screenshot\1677810436.someone playing soccer.png site_link=https://www.papara.com/personal/auth/login/email-phone issues=https://github.com/QIN2DIM/hcaptcha-challenger/issues?q=someone%20playing%20soccer
+2023-03-03 05:27:17.325 | DEBUG    | hcaptcha_challenger.core:log:317 - >> Challenge [ArmorCaptcha] Get label - label=「someone playing soccer」
+2023-03-03 05:27:19.319 | DEBUG    | hcaptcha_challenger.core:log:317 - >> Challenge [ArmorCaptcha] Download challenge images - timeit=1.46s
+2023-03-03 05:27:19.586 | WARNING  | hcaptcha_challenger.core:tactical_retreat:385 - >> ALERT [ArmorCaptcha] Types of challenges not yet scheduled - label=「someone playing soccer」 prompt=「Please click each image containing someone playing soсcer」 screenshot=datas\temp_cache\captcha_screenshot\1677810439.someone playing soccer.png site_link=https://www.papara.com/personal/auth/login/email-phone issues=https://github.com/QIN2DIM/hcaptcha-challenger/issues?q=someone%20playing%20soccer
+2023-03-03 05:27:20.633 | DEBUG    | hcaptcha_challenger.core:log:317 - >> Challenge [ArmorCaptcha] Get label - label=「someone playing soccer」
+2023-03-03 05:27:22.319 | DEBUG    | hcaptcha_challenger.core:log:317 - >> Challenge [ArmorCaptcha] Download challenge images - timeit=1.18s
+2023-03-03 05:27:22.488 | WARNING  | hcaptcha_challenger.core:tactical_retreat:385 - >> ALERT [ArmorCaptcha] Types of challenges not yet scheduled - label=「someone playing soccer」 prompt=「Please click each image containing someone playing soсcer」 screenshot=datas\temp_cache\captcha_screenshot\1677810442.someone playing soccer.png site_link=https://www.papara.com/personal/auth/login/email-phone issues=https://github.com/QIN2DIM/hcaptcha-challenger/issues?q=someone%20playing%20soccer
+2023-03-03 05:35:12.971 | DEBUG    | hcaptcha_challenger._solutions.kernel:_request_asset:320 - Downloading objects.yaml from https://raw.githubusercontent.com/QIN2DIM/hcaptcha-challenger/main/src/objects.yaml
+2023-03-03 05:36:01.255 | ERROR    | hcaptcha_challenger.core:anti_hcaptcha:699 - Message: 
+Stacktrace:
+Backtrace:
+	(No symbol) [0x010637D3]
+	(No symbol) [0x00FF8B81]
+	(No symbol) [0x00EFB36D]
+	(No symbol) [0x00F2D382]
+	(No symbol) [0x00F2D4BB]
+	(No symbol) [0x00F63302]
+	(No symbol) [0x00F4B464]
+	(No symbol) [0x00F61215]
+	(No symbol) [0x00F4B216]
+	(No symbol) [0x00F20D97]
+	(No symbol) [0x00F2253D]
+	GetHandleVerifier [0x012DABF2+2510930]
+	GetHandleVerifier [0x01308EC1+2700065]
+	GetHandleVerifier [0x0130C86C+2714828]
+	GetHandleVerifier [0x01113480+645344]
+	(No symbol) [0x01000FD2]
+	(No symbol) [0x01006C68]
+	(No symbol) [0x01006D4B]
+	(No symbol) [0x01010D6B]
+	BaseThreadInitThunk [0x75C000F9+25]
+	RtlGetAppContainerNamedObjectPath [0x77167BBE+286]
+	RtlGetAppContainerNamedObjectPath [0x77167B8E+238]
+
+Traceback (most recent call last):
+  File "C:\Users\izzet\AppData\Local\Programs\Python\Python310\lib\threading.py", line 966, in _bootstrap
+    self._bootstrap_inner()
+  File "C:\Users\izzet\AppData\Local\Programs\Python\Python310\lib\threading.py", line 1009, in _bootstrap_inner
+    self.run()
+  File "C:\Users\izzet\AppData\Local\Programs\Python\Python310\lib\threading.py", line 946, in run
+    self._target(*self._args, **self._kwargs)
+  File "C:\Users\izzet\AppData\Local\Programs\Python\Python310\lib\concurrent\futures\thread.py", line 83, in _worker
+    work_item.run()
+  File "C:\Users\izzet\AppData\Local\Programs\Python\Python310\lib\concurrent\futures\thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "C:\Users\izzet\OneDrive\Belgeler\MEGAsync Downloads\FlaskApp\app.py", line 12, in bytedance_async
+    result = bytedance(id, password)
+  File "C:\Users\izzet\OneDrive\Belgeler\MEGAsync Downloads\FlaskApp\demo_selenium.py", line 87, in bytedance
+    hit_challenge(ctx=driver,challenger=challenger)
+  File "C:\Users\izzet\OneDrive\Belgeler\MEGAsync Downloads\FlaskApp\demo_selenium.py", line 39, in hit_challenge
+    if (resp := challenger.anti_hcaptcha(ctx)) is None:
+> File "C:\Users\izzet\AppData\Local\Programs\Python\Python310\lib\site-packages\hcaptcha_challenger\core.py", line 659, in anti_hcaptcha
+    self.switch_to_challenge_frame(ctx)
+  File "C:\Users\izzet\AppData\Local\Programs\Python\Python310\lib\site-packages\hcaptcha_challenger\core.py", line 320, in switch_to_challenge_frame
+    WebDriverWait(ctx, 15, ignored_exceptions=(ElementNotVisibleException,)).until(
+  File "C:\Users\izzet\AppData\Local\Programs\Python\Python310\lib\site-packages\selenium\webdriver\support\wait.py", line 95, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+Backtrace:
+	(No symbol) [0x010637D3]
+	(No symbol) [0x00FF8B81]
+	(No symbol) [0x00EFB36D]
+	(No symbol) [0x00F2D382]
+	(No symbol) [0x00F2D4BB]
+	(No symbol) [0x00F63302]
+	(No symbol) [0x00F4B464]
+	(No symbol) [0x00F61215]
+	(No symbol) [0x00F4B216]
+	(No symbol) [0x00F20D97]
+	(No symbol) [0x00F2253D]
+	GetHandleVerifier [0x012DABF2+2510930]
+	GetHandleVerifier [0x01308EC1+2700065]
+	GetHandleVerifier [0x0130C86C+2714828]
+	GetHandleVerifier [0x01113480+645344]
+	(No symbol) [0x01000FD2]
+	(No symbol) [0x01006C68]
+	(No symbol) [0x01006D4B]
+	(No symbol) [0x01010D6B]
+	BaseThreadInitThunk [0x75C000F9+25]
+	RtlGetAppContainerNamedObjectPath [0x77167BBE+286]
+	RtlGetAppContainerNamedObjectPath [0x77167B8E+238]
+
+2023-03-03 05:36:02.372 | DEBUG    | hcaptcha_challenger.core:log:317 - >> Challenge [ArmorCaptcha] Get label - label=「someone playing soccer」
+2023-03-03 05:36:04.704 | DEBUG    | hcaptcha_challenger.core:log:317 - >> Challenge [ArmorCaptcha] Download challenge images - timeit=1.26s
+2023-03-03 05:36:04.712 | DEBUG    | hcaptcha_challenger._solutions.kernel:_request_asset:320 - Downloading someone_playing_soccer.onnx from https://github.com/QIN2DIM/hcaptcha-challenger/releases/download/model/someone_playing_soccer.onnx
+2023-03-03 05:36:10.090 | DEBUG    | hcaptcha_challenger.core:log:317 - >> Challenge [ArmorCaptcha] Submit the challenge - someone_playing_soccer(ResNet)_model: 1.25s
+2023-03-03 05:36:13.416 | DEBUG    | hcaptcha_challenger.core:log:317 - >> Challenge [ArmorCaptcha] Get response - desc=success
+2023-03-03 05:37:13.048 | ERROR    | hcaptcha_challenger.core:anti_hcaptcha:699 - Message: 
+Stacktrace:
+Backtrace:
+	(No symbol) [0x010637D3]
+	(No symbol) [0x00FF8B81]
+	(No symbol) [0x00EFB36D]
+	(No symbol) [0x00F2D382]
+	(No symbol) [0x00F2D4BB]
+	(No symbol) [0x00F63302]
+	(No symbol) [0x00F4B464]
+	(No symbol) [0x00F61215]
+	(No symbol) [0x00F4B216]
+	(No symbol) [0x00F20D97]
+	(No symbol) [0x00F2253D]
+	GetHandleVerifier [0x012DABF2+2510930]
+	GetHandleVerifier [0x01308EC1+2700065]
+	GetHandleVerifier [0x0130C86C+2714828]
+	GetHandleVerifier [0x01113480+645344]
+	(No symbol) [0x01000FD2]
+	(No symbol) [0x01006C68]
+	(No symbol) [0x01006D4B]
+	(No symbol) [0x01010D6B]
+	BaseThreadInitThunk [0x75C000F9+25]
+	RtlGetAppContainerNamedObjectPath [0x77167BBE+286]
+	RtlGetAppContainerNamedObjectPath [0x77167B8E+238]
+
+Traceback (most recent call last):
+  File "C:\Users\izzet\AppData\Local\Programs\Python\Python310\lib\threading.py", line 966, in _bootstrap
+    self._bootstrap_inner()
+  File "C:\Users\izzet\AppData\Local\Programs\Python\Python310\lib\threading.py", line 1009, in _bootstrap_inner
+    self.run()
+  File "C:\Users\izzet\AppData\Local\Programs\Python\Python310\lib\threading.py", line 946, in run
+    self._target(*self._args, **self._kwargs)
+  File "C:\Users\izzet\AppData\Local\Programs\Python\Python310\lib\concurrent\futures\thread.py", line 83, in _worker
+    work_item.run()
+  File "C:\Users\izzet\AppData\Local\Programs\Python\Python310\lib\concurrent\futures\thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "C:\Users\izzet\OneDrive\Belgeler\MEGAsync Downloads\FlaskApp\app.py", line 12, in bytedance_async
+    result = bytedance(id, password)
+  File "C:\Users\izzet\OneDrive\Belgeler\MEGAsync Downloads\FlaskApp\demo_selenium.py", line 87, in bytedance
+    hit_challenge(ctx=driver,challenger=challenger)
+  File "C:\Users\izzet\OneDrive\Belgeler\MEGAsync Downloads\FlaskApp\demo_selenium.py", line 39, in hit_challenge
+    if (resp := challenger.anti_hcaptcha(ctx)) is None:
+> File "C:\Users\izzet\AppData\Local\Programs\Python\Python310\lib\site-packages\hcaptcha_challenger\core.py", line 659, in anti_hcaptcha
+    self.switch_to_challenge_frame(ctx)
+  File "C:\Users\izzet\AppData\Local\Programs\Python\Python310\lib\site-packages\hcaptcha_challenger\core.py", line 320, in switch_to_challenge_frame
+    WebDriverWait(ctx, 15, ignored_exceptions=(ElementNotVisibleException,)).until(
+  File "C:\Users\izzet\AppData\Local\Programs\Python\Python310\lib\site-packages\selenium\webdriver\support\wait.py", line 95, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+Backtrace:
+	(No symbol) [0x010637D3]
+	(No symbol) [0x00FF8B81]
+	(No symbol) [0x00EFB36D]
+	(No symbol) [0x00F2D382]
+	(No symbol) [0x00F2D4BB]
+	(No symbol) [0x00F63302]
+	(No symbol) [0x00F4B464]
+	(No symbol) [0x00F61215]
+	(No symbol) [0x00F4B216]
+	(No symbol) [0x00F20D97]
+	(No symbol) [0x00F2253D]
+	GetHandleVerifier [0x012DABF2+2510930]
+	GetHandleVerifier [0x01308EC1+2700065]
+	GetHandleVerifier [0x0130C86C+2714828]
+	GetHandleVerifier [0x01113480+645344]
+	(No symbol) [0x01000FD2]
+	(No symbol) [0x01006C68]
+	(No symbol) [0x01006D4B]
+	(No symbol) [0x01010D6B]
+	BaseThreadInitThunk [0x75C000F9+25]
+	RtlGetAppContainerNamedObjectPath [0x77167BBE+286]
+	RtlGetAppContainerNamedObjectPath [0x77167B8E+238]
+
+2023-03-03 05:37:14.170 | DEBUG    | hcaptcha_challenger.core:log:317 - >> Challenge [ArmorCaptcha] Get label - label=「hockey match」
+2023-03-03 05:37:15.918 | DEBUG    | hcaptcha_challenger.core:log:317 - >> Challenge [ArmorCaptcha] Download challenge images - timeit=1.2s
+2023-03-03 05:37:15.926 | DEBUG    | hcaptcha_challenger._solutions.kernel:_request_asset:320 - Downloading hockey_match.onnx from https://github.com/QIN2DIM/hcaptcha-challenger/releases/download/model/hockey_match.onnx
+2023-03-03 05:37:20.329 | DEBUG    | hcaptcha_challenger.core:log:317 - >> Challenge [ArmorCaptcha] Submit the challenge - hockey_match(ResNet)_model: 1.12s
+2023-03-03 05:37:23.609 | DEBUG    | hcaptcha_challenger.core:log:317 - >> Challenge [ArmorCaptcha] Get response - desc=success
+2023-03-03 05:40:18.960 | ERROR    | hcaptcha_challenger.core:anti_hcaptcha:699 - Message: 
+Stacktrace:
+Backtrace:
+	(No symbol) [0x010637D3]
+	(No symbol) [0x00FF8B81]
+	(No symbol) [0x00EFB36D]
+	(No symbol) [0x00F2D382]
+	(No symbol) [0x00F2D4BB]
+	(No symbol) [0x00F63302]
+	(No symbol) [0x00F4B464]
+	(No symbol) [0x00F61215]
+	(No symbol) [0x00F4B216]
+	(No symbol) [0x00F20D97]
+	(No symbol) [0x00F2253D]
+	GetHandleVerifier [0x012DABF2+2510930]
+	GetHandleVerifier [0x01308EC1+2700065]
+	GetHandleVerifier [0x0130C86C+2714828]
+	GetHandleVerifier [0x01113480+645344]
+	(No symbol) [0x01000FD2]
+	(No symbol) [0x01006C68]
+	(No symbol) [0x01006D4B]
+	(No symbol) [0x01010D6B]
+	BaseThreadInitThunk [0x75C000F9+25]
+	RtlGetAppContainerNamedObjectPath [0x77167BBE+286]
+	RtlGetAppContainerNamedObjectPath [0x77167B8E+238]
+
+Traceback (most recent call last):
+  File "C:\Users\izzet\AppData\Local\Programs\Python\Python310\lib\threading.py", line 966, in _bootstrap
+    self._bootstrap_inner()
+  File "C:\Users\izzet\AppData\Local\Programs\Python\Python310\lib\threading.py", line 1009, in _bootstrap_inner
+    self.run()
+  File "C:\Users\izzet\AppData\Local\Programs\Python\Python310\lib\threading.py", line 946, in run
+    self._target(*self._args, **self._kwargs)
+  File "C:\Users\izzet\AppData\Local\Programs\Python\Python310\lib\concurrent\futures\thread.py", line 83, in _worker
+    work_item.run()
+  File "C:\Users\izzet\AppData\Local\Programs\Python\Python310\lib\concurrent\futures\thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "C:\Users\izzet\OneDrive\Belgeler\MEGAsync Downloads\FlaskApp\app.py", line 12, in bytedance_async
+    result = bytedance(id, password)
+  File "C:\Users\izzet\OneDrive\Belgeler\MEGAsync Downloads\FlaskApp\demo_selenium.py", line 85, in bytedance
+    hit_challenge(ctx=driver,challenger=challenger)
+  File "C:\Users\izzet\OneDrive\Belgeler\MEGAsync Downloads\FlaskApp\demo_selenium.py", line 39, in hit_challenge
+    if (resp := challenger.anti_hcaptcha(ctx)) is None:
+> File "C:\Users\izzet\AppData\Local\Programs\Python\Python310\lib\site-packages\hcaptcha_challenger\core.py", line 659, in anti_hcaptcha
+    self.switch_to_challenge_frame(ctx)
+  File "C:\Users\izzet\AppData\Local\Programs\Python\Python310\lib\site-packages\hcaptcha_challenger\core.py", line 320, in switch_to_challenge_frame
+    WebDriverWait(ctx, 15, ignored_exceptions=(ElementNotVisibleException,)).until(
+  File "C:\Users\izzet\AppData\Local\Programs\Python\Python310\lib\site-packages\selenium\webdriver\support\wait.py", line 95, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+Backtrace:
+	(No symbol) [0x010637D3]
+	(No symbol) [0x00FF8B81]
+	(No symbol) [0x00EFB36D]
+	(No symbol) [0x00F2D382]
+	(No symbol) [0x00F2D4BB]
+	(No symbol) [0x00F63302]
+	(No symbol) [0x00F4B464]
+	(No symbol) [0x00F61215]
+	(No symbol) [0x00F4B216]
+	(No symbol) [0x00F20D97]
+	(No symbol) [0x00F2253D]
+	GetHandleVerifier [0x012DABF2+2510930]
+	GetHandleVerifier [0x01308EC1+2700065]
+	GetHandleVerifier [0x0130C86C+2714828]
+	GetHandleVerifier [0x01113480+645344]
+	(No symbol) [0x01000FD2]
+	(No symbol) [0x01006C68]
+	(No symbol) [0x01006D4B]
+	(No symbol) [0x01010D6B]
+	BaseThreadInitThunk [0x75C000F9+25]
+	RtlGetAppContainerNamedObjectPath [0x77167BBE+286]
+	RtlGetAppContainerNamedObjectPath [0x77167B8E+238]
+
+2023-03-03 05:40:20.085 | DEBUG    | hcaptcha_challenger.core:log:317 - >> Challenge [ArmorCaptcha] Get label - label=「someone playing soccer」
+2023-03-03 05:40:21.869 | DEBUG    | hcaptcha_challenger.core:log:317 - >> Challenge [ArmorCaptcha] Download challenge images - timeit=1.23s
+2023-03-03 05:40:25.758 | DEBUG    | hcaptcha_challenger.core:log:317 - >> Challenge [ArmorCaptcha] Submit the challenge - someone_playing_soccer(ResNet)_model: 0.02s
+2023-03-03 05:40:29.083 | DEBUG    | hcaptcha_challenger.core:log:317 - >> Challenge [ArmorCaptcha] Get response - desc=success
+2023-03-03 05:42:58.286 | ERROR    | hcaptcha_challenger.core:anti_hcaptcha:699 - Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=110.0.5481.178)
+Stacktrace:
+Backtrace:
+	(No symbol) [0x010637D3]
+	(No symbol) [0x00FF8B81]
+	(No symbol) [0x00EFB36D]
+	(No symbol) [0x00EDE5DA]
+	(No symbol) [0x00F4F0CB]
+	(No symbol) [0x00F60A56]
+	(No symbol) [0x00F4B216]
+	(No symbol) [0x00F20D97]
+	(No symbol) [0x00F2253D]
+	GetHandleVerifier [0x012DABF2+2510930]
+	GetHandleVerifier [0x01308EC1+2700065]
+	GetHandleVerifier [0x0130C86C+2714828]
+	GetHandleVerifier [0x01113480+645344]
+	(No symbol) [0x01000FD2]
+	(No symbol) [0x01006C68]
+	(No symbol) [0x01006D4B]
+	(No symbol) [0x01010D6B]
+	BaseThreadInitThunk [0x75C000F9+25]
+	RtlGetAppContainerNamedObjectPath [0x77167BBE+286]
+	RtlGetAppContainerNamedObjectPath [0x77167B8E+238]
+
+Traceback (most recent call last):
+  File "C:\Users\izzet\AppData\Local\Programs\Python\Python310\lib\threading.py", line 966, in _bootstrap
+    self._bootstrap_inner()
+  File "C:\Users\izzet\AppData\Local\Programs\Python\Python310\lib\threading.py", line 1009, in _bootstrap_inner
+    self.run()
+  File "C:\Users\izzet\AppData\Local\Programs\Python\Python310\lib\threading.py", line 946, in run
+    self._target(*self._args, **self._kwargs)
+  File "C:\Users\izzet\AppData\Local\Programs\Python\Python310\lib\concurrent\futures\thread.py", line 83, in _worker
+    work_item.run()
+  File "C:\Users\izzet\AppData\Local\Programs\Python\Python310\lib\concurrent\futures\thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "C:\Users\izzet\OneDrive\Belgeler\MEGAsync Downloads\FlaskApp\app.py", line 12, in bytedance_async
+    result = bytedance(id, password)
+  File "C:\Users\izzet\OneDrive\Belgeler\MEGAsync Downloads\FlaskApp\demo_selenium.py", line 85, in bytedance
+    hit_challenge(ctx=driver,challenger=challenger)
+  File "C:\Users\izzet\OneDrive\Belgeler\MEGAsync Downloads\FlaskApp\demo_selenium.py", line 39, in hit_challenge
+    if (resp := challenger.anti_hcaptcha(ctx)) is None:
+> File "C:\Users\izzet\AppData\Local\Programs\Python\Python310\lib\site-packages\hcaptcha_challenger\core.py", line 659, in anti_hcaptcha
+    self.switch_to_challenge_frame(ctx)
+  File "C:\Users\izzet\AppData\Local\Programs\Python\Python310\lib\site-packages\hcaptcha_challenger\core.py", line 320, in switch_to_challenge_frame
+    WebDriverWait(ctx, 15, ignored_exceptions=(ElementNotVisibleException,)).until(
+  File "C:\Users\izzet\AppData\Local\Programs\Python\Python310\lib\site-packages\selenium\webdriver\support\wait.py", line 86, in until
+    value = method(self._driver)
+  File "C:\Users\izzet\AppData\Local\Programs\Python\Python310\lib\site-packages\selenium\webdriver\support\expected_conditions.py", line 279, in _predicate
+    driver.switch_to.frame(driver.find_element(*locator))
+  File "C:\Users\izzet\AppData\Local\Programs\Python\Python310\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 830, in find_element
+    return self.execute(Command.FIND_ELEMENT, {"using": by, "value": value})["value"]
+  File "C:\Users\izzet\AppData\Local\Programs\Python\Python310\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 440, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\izzet\AppData\Local\Programs\Python\Python310\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 245, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchWindowException: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=110.0.5481.178)
+Stacktrace:
+Backtrace:
+	(No symbol) [0x010637D3]
+	(No symbol) [0x00FF8B81]
+	(No symbol) [0x00EFB36D]
+	(No symbol) [0x00EDE5DA]
+	(No symbol) [0x00F4F0CB]
+	(No symbol) [0x00F60A56]
+	(No symbol) [0x00F4B216]
+	(No symbol) [0x00F20D97]
+	(No symbol) [0x00F2253D]
+	GetHandleVerifier [0x012DABF2+2510930]
+	GetHandleVerifier [0x01308EC1+2700065]
+	GetHandleVerifier [0x0130C86C+2714828]
+	GetHandleVerifier [0x01113480+645344]
+	(No symbol) [0x01000FD2]
+	(No symbol) [0x01006C68]
+	(No symbol) [0x01006D4B]
+	(No symbol) [0x01010D6B]
+	BaseThreadInitThunk [0x75C000F9+25]
+	RtlGetAppContainerNamedObjectPath [0x77167BBE+286]
+	RtlGetAppContainerNamedObjectPath [0x77167B8E+238]
+
+2023-03-03 05:45:36.244 | DEBUG    | hcaptcha_challenger.core:log:317 - >> Challenge [ArmorCaptcha] Get label - label=「forest」
+2023-03-03 05:45:38.022 | DEBUG    | hcaptcha_challenger.core:log:317 - >> Challenge [ArmorCaptcha] Download challenge images - timeit=1.25s
+2023-03-03 05:45:41.155 | DEBUG    | hcaptcha_challenger.core:log:317 - >> Challenge [ArmorCaptcha] Submit the challenge - forest(ResNet)_model: 0.8s
+2023-03-03 05:45:44.514 | DEBUG    | hcaptcha_challenger.core:log:317 - >> Challenge [ArmorCaptcha] Get response - desc=success

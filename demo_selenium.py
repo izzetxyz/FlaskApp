@@ -12,6 +12,7 @@ import time
 import requests as rq
 import random
 from datetime import datetime
+from selenium.webdriver.common.keys import Keys
 from flask import Flask, jsonify, request
 from selenium import webdriver
 from selenium.webdriver.common.by import By
@@ -70,14 +71,8 @@ def bytedance(email,password):
                     EC.element_to_be_clickable((By.XPATH, '//*[@id="root"]/div[2]/div/div[1]/div[1]/div[1]/div[2]/div[1]/a'))
                 ).click()
                 # Handling context validation
-                try:
-                    rasgelesayi = random.randint(1, 9)
-                    rasgelesec = driver.find_element(By.XPATH,f'/html/body/div[1]/div/div/div[2]/div[{rasgelesayi}]')
-                    rasgelesec.click()
-                    time.sleep(random.uniform(0,1))
-                    rasgelesec.click()
-                except:
-                    print('gectiyey')                                               
+                driver.find_element(By.TAG_NAME, 'body').send_keys(Keys.PAGE_DOWN)    
+                driver.maximize_window()                                          
                 hit_challenge(ctx=driver,challenger=challenger)
                 # Submit test data
                 try:
