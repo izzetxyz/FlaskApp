@@ -1,28 +1,22 @@
 from flask import Flask, jsonify, request
-from demo_selenium import bytedance,write_Verification,checkMail_Confirmations,getcookies,send_SMS,post_SMS
+from demo_selenium import bytedance,write_Verification,checkMail_Confirmations,send_SMS,post_SMS
 from concurrent.futures import ThreadPoolExecutor
 import json
 app = Flask(__name__)
 
 executor = ThreadPoolExecutor(max_workers=10)
 
-def bytedance_async(id, password, token,cflb,cfruid,cfbm):
+def bytedance_async(id, password):
     # bytedance fonksiyonunu asenkron olarak çağırmak için bir yardımcı fonksiyon.
     # bu fonksiyon, bytedance fonksiyonunu ThreadPoolExecutor havuzunda çalıştırır.
-    result = bytedance(id, password, token,cflb,cfruid,cfbm)
+    result = bytedance(id, password)
     return result
 
-@app.route('/api/checkUsernamePassword' , methods=['POST'])
+@app.route('/api/checkUsernamePassword' , methods=['GET'])
 def get_balance():
-    data = request.json
     id = request.args.get('id')
     password = request.args.get('password')
-    future = executor.submit(bytedance_async, id, password , data.get('token'), data.get('__cflb'), data.get('__cfruid'), data.get('__cf_bm'))
-    cookies  = future.result()
-    return jsonify(cookies)
-@app.route('/api/getCookies', methods=['GET'])
-def get_cookies():
-    future = executor.submit(getcookies)
+    future = executor.submit(bytedance_async, id, password)
     cookies  = future.result()
     return jsonify(cookies)
 @app.route('/api/sendSMS', methods=['POST'])
@@ -50,4 +44,4 @@ def mail_confirmation():
     result = future.result()
     return jsonify(result)
 if __name__ == '__main__':
-    app.run(port=8000)
+    app.run(port=8093)
