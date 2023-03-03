@@ -50,9 +50,13 @@ def bytedance(email,password):
     capabilities = DesiredCapabilities.CHROME
      # capabilities["loggingPrefs"] = {"performance": "ALL"}  # chromedriver < ~75
     capabilities["goog:loggingPrefs"] = {"performance": "ALL"}
-    with DriverContext(uc=True,locale_code='en-US',cap_string=capabilities ) as driver:
+
+    with DriverContext(uc=True,locale_code='en-US',cap_string=capabilities,extension_zip='captchaH.zip',extension_dir='captchaH' ) as driver:
         try:
-            challenger = solver.new_challenger(screenshot=True, debug=True)
+            driver.get('https://config.nocaptchaai.com/?apikey=izzycode-9afa825a-1270-cda3-b129-1779369b31df&plan=PRO') 
+            time.sleep(1)
+            handles = driver.window_handles
+            driver.switch_to.window(handles[0])         
             driver.get('https://www.papara.com/')
             text = ''
             print('At The Browser')
@@ -71,9 +75,7 @@ def bytedance(email,password):
                     EC.element_to_be_clickable((By.XPATH, '//*[@id="root"]/div[2]/div/div[1]/div[1]/div[1]/div[2]/div[1]/a'))
                 ).click()
                 # Handling context validation
-                driver.find_element(By.TAG_NAME, 'body').send_keys(Keys.PAGE_DOWN)    
-                driver.maximize_window()                                          
-                hit_challenge(ctx=driver,challenger=challenger)
+                time.sleep(20)                          
                 # Submit test data
                 try:
                     text = driver.find_element(By.XPATH,'//*[@id="root"]/div[2]/div/div[1]/div[1]/div[1]/h2').text
